@@ -2,4 +2,20 @@
 
 1-faire un git clone du projet
 2-Ensuite faire un npm install pour installer les dependances
-3-Faire un npm start pour demarrer le projet web
+3-Ouvrer un terminal et tapez la commande npm start pour demarrer le projet web
+
+#Test de l'application 
+
+1-Installer l'apk sur un telephone
+2-Ouvrir un autre terminal sur la machine, hebergeant l'application web
+3-Tapez la commande ifconfig pour les utilisateurs de linux ou ipconfig pour les 
+utilisateurs de windows
+4-Reperez l'adresse ip de la machine et la saisir dans le textview de l'application
+android installee.Vous devez saisir la valeur suivante en fonction de votre adresse ip
+http://ip:3000/sms, et cliquez sur le bouton SAVE 
+5-Utiliser un autre telephone Android et envoyer un sms au telephone ou est installee l'application
+mobile.
+6-Ouvrez le terminal via lequel, vous avez demarre votre application web, vous  devriez voir le sms
+dans la console
+7-Regarder dans la liste des messages du telephone expediteur du sms (Telephone utilise au point 5), un message par defaut
+lui a ete envoye.Le contenu du message est sms selfcare
