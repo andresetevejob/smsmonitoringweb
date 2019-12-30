@@ -1,0 +1,5 @@
+# Demarrer le projet web
+
+1-faire un git clone du projet
+2-Ensuite faire un npm install pour installer les dependances
+3-Faire un npm start pour demarrer le projet web
